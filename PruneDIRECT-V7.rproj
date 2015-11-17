@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="RTarget" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26a0c2a4-9426-4e17-883b-8c86ba4df0d7}</ProjectGuid>
+    <AssemblyName>PruneDIRECT-V7</AssemblyName>
+    <Name>PruneDIRECT-V7</Name>
+    <RootNamespace>PruneDIRECT-V7</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="calc_lboundB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="calc_uboundB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CallObjFcnB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DIRdivideB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DIRiniB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FindSym.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="find_poB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="hyper2.csv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="main3d.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mydirectB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ObjectiveFB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="probbcB.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ProblemInt.R">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="readme.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="rssB.R">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Target Name="RTarget">
+    <Message Text="Executing R script" />
+  </Target>
+</Project>
