@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
-PruneDIRECT - R Version
+#PruneDIRECT - R Version
 
 copyright (c) 2015, Behrang Mahjani, Salman Toor, Carl Nettelblad, Sverker Holmgren
 
@@ -35,8 +35,8 @@ mapping in experimental crosses. Bioinformatics, 19, pp. 889-890,
 
 ----------------------------------------------------------------------
 
-#PruneDIRECT - V7 for intercross
-## Instructions: 
+##PruneDIRECT - V7 for intercross
+### Instructions: 
 
 Where to change: 
 
