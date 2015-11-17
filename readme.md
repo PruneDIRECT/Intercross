@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
-PruneDIRECT - R Version
+#PruneDIRECT - R Version
 
 copyright (c) 2015, Behrang Mahjani, Salman Toor, Carl Nettelblad, Sverker Holmgren
 
@@ -35,10 +35,11 @@ mapping in experimental crosses. Bioinformatics, 19, pp. 889-890,
 
 ----------------------------------------------------------------------
 
-#PruneDIRECT - V7 for intercross
-## Instructions: 
+##PruneDIRECT - V7 for intercross
+### Instructions: 
 
 Where to change: 
-*1. Main file, the path for the file and loading the data, 
-*2. Main file, the choromosome numbers
-*3. Change the objective function in the file objectiveFB.R, the name of the function is ObjectiveF3dInt 
+
+1. Main file, the path for the file and loading the data, 
+2. Main file, the choromosome numbers
+3. Change the objective function in the file objectiveFB.R, the name of the function is ObjectiveF3dInt 
