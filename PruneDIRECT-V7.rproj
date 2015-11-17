@@ -40,9 +40,6 @@
     <Content Include="find_poB.R">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="hyper2.csv">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="main3d.R">
       <SubType>Content</SubType>
     </Content>
